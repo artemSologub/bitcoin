@@ -1,0 +1,472 @@
+/* Fonts START */
+@font-face {
+  font-family: EUROCAPS;
+  src: url("/fonts/EUROCAPS.TTF");
+}
+
+@font-face {
+  font-family: Dosis-SemiBold;
+  src: url("/fonts/Dosis-SemiBold.otf");
+}
+
+@font-face {
+  font-family: Dosis-Regular;
+  src: url("/fonts/Dosis-Regular.otf");
+}
+
+/* Fonts END */
+/* Default styles START */
+/* line 32, S:/home/bitcoin.test/www/scss/main.scss */
+img {
+  display: block;
+}
+
+/* line 36, S:/home/bitcoin.test/www/scss/main.scss */
+.left {
+  float: left;
+}
+
+/* line 39, S:/home/bitcoin.test/www/scss/main.scss */
+.right {
+  float: right;
+}
+
+/* line 42, S:/home/bitcoin.test/www/scss/main.scss */
+.clear {
+  clear: both;
+}
+
+/* line 45, S:/home/bitcoin.test/www/scss/main.scss */
+.upper-case {
+  text-transform: uppercase;
+}
+
+/* line 49, S:/home/bitcoin.test/www/scss/main.scss */
+.error-field {
+  background: #FF5300;
+}
+
+/* line 52, S:/home/bitcoin.test/www/scss/main.scss */
+.container {
+  width: 1280px;
+  margin: 0 auto;
+}
+
+/* Default styles END */
+/* Top block START */
+/* line 63, S:/home/bitcoin.test/www/scss/main.scss */
+#top {
+  width: 100%;
+  background: #171717;
+}
+/* line 68, S:/home/bitcoin.test/www/scss/main.scss */
+#top .container {
+  position: relative;
+  height: 48px;
+  padding: 8px 0 0;
+}
+/* line 73, S:/home/bitcoin.test/www/scss/main.scss */
+#top .container .logo {
+  width: 158px;
+  height: 40px;
+  background: transparent url("/images/bt-logo.png") left top no-repeat;
+}
+/* line 79, S:/home/bitcoin.test/www/scss/main.scss */
+#top .container .free-sign-up {
+  position: absolute;
+  right: 0;
+  width: 220px;
+  padding: 0 7px;
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.5);
+  background: transparent url("/images/bt-form-bg.png") left top repeat-y;
+}
+/* line 87, S:/home/bitcoin.test/www/scss/main.scss */
+#top .container .free-sign-up .sign-up-popup-button {
+  font-weight: bold;
+  font-size: 39px;
+  text-align: center;
+  text-transform: uppercase;
+  color: #e1e1e1;
+}
+/* line 96, S:/home/bitcoin.test/www/scss/main.scss */
+#top .container .free-sign-up #sign-up-form {
+  width: 100%;
+  position: relative;
+  /* Firefox 19+ */
+  /* Firefox 18- */
+}
+/* line 100, S:/home/bitcoin.test/www/scss/main.scss */
+#top .container .free-sign-up #sign-up-form input {
+  width: 100%;
+  height: 28px;
+  margin-top: 5px;
+  padding: 9px 0 7px 6px;
+  border-radius: 1px;
+  border: 1px solid #a6a3a3;
+  box-sizing: border-box;
+  font-weight: 100;
+}
+/* line 111, S:/home/bitcoin.test/www/scss/main.scss */
+#top .container .free-sign-up #sign-up-form input::-webkit-input-placeholder {
+  color: #1c1c1c;
+}
+/* line 112, S:/home/bitcoin.test/www/scss/main.scss */
+#top .container .free-sign-up #sign-up-form input::-moz-placeholder {
+  color: #1c1c1c;
+}
+/* line 113, S:/home/bitcoin.test/www/scss/main.scss */
+#top .container .free-sign-up #sign-up-form input:-moz-placeholder {
+  color: #1c1c1c;
+}
+/* line 114, S:/home/bitcoin.test/www/scss/main.scss */
+#top .container .free-sign-up #sign-up-form input:-ms-input-placeholder {
+  color: #1c1c1c;
+}
+/* line 115, S:/home/bitcoin.test/www/scss/main.scss */
+#top .container .free-sign-up #sign-up-form input[name="countryCode"] {
+  width: 56px;
+}
+/* line 118, S:/home/bitcoin.test/www/scss/main.scss */
+#top .container .free-sign-up #sign-up-form input[name="phoneNumber"] {
+  width: 158px;
+}
+/* line 122, S:/home/bitcoin.test/www/scss/main.scss */
+#top .container .free-sign-up #sign-up-form button {
+  width: 100%;
+  height: 55px;
+  margin-top: 16px;
+  border-radius: 3px;
+  border: none;
+  background: transparent url("/images/bt-red-button-bg.png") left top repeat-x;
+  box-shadow: 0 5px 5px #6f0202;
+  font-size: 36px;
+  text-transform: uppercase;
+  color: #e1e1e1;
+  cursor: pointer;
+  font-weight: 400;
+}
+/* line 139, S:/home/bitcoin.test/www/scss/main.scss */
+#top .container .free-sign-up p {
+  position: relative;
+  margin-top: 25px;
+  font-weight: 400;
+  font-size: 21px;
+  line-height: 24px;
+  color: #2d8ff2;
+}
+/* line 149, S:/home/bitcoin.test/www/scss/main.scss */
+#top .container .free-sign-up ul {
+  position: relative;
+  margin: 18px 0 0 23px;
+  color: #e1e1e1;
+  list-style-image: url("/images/bt-list-icon.png");
+}
+/* line 156, S:/home/bitcoin.test/www/scss/main.scss */
+#top .container .free-sign-up ul li {
+  margin-bottom: 15px;
+  font-size: 14px;
+  line-height: 18px;
+}
+/* line 163, S:/home/bitcoin.test/www/scss/main.scss */
+#top .container .free-sign-up img {
+  display: block;
+  position: relative;
+  margin: 26px auto 16px;
+}
+
+/* line 172, S:/home/bitcoin.test/www/scss/main.scss */
+#main {
+  width: 100%;
+  background: black url("/images/top-big-bg.png") center no-repeat;
+  background-size: cover;
+}
+/* line 177, S:/home/bitcoin.test/www/scss/main.scss */
+#main .container {
+  height: 771px;
+}
+/* line 180, S:/home/bitcoin.test/www/scss/main.scss */
+#main .container .main-top {
+  width: 1019px;
+}
+/* line 183, S:/home/bitcoin.test/www/scss/main.scss */
+#main .container .main-top p {
+  color: #e1e1e1;
+}
+/* line 188, S:/home/bitcoin.test/www/scss/main.scss */
+#main .container .main-top .top-text {
+  width: 840px;
+  margin-top: 4px;
+}
+/* line 192, S:/home/bitcoin.test/www/scss/main.scss */
+#main .container .main-top .top-text h1 {
+  font-size: 63px;
+  line-height: 48px;
+  font-family: "EUROCAPS", Arial, sans-serif;
+  color: #2e90f4;
+  font-weight: normal;
+}
+/* line 199, S:/home/bitcoin.test/www/scss/main.scss */
+#main .container .main-top .top-text h1 span {
+  font-size: 39px;
+}
+/* line 203, S:/home/bitcoin.test/www/scss/main.scss */
+#main .container .main-top .top-text p {
+  margin-top: 9px;
+  font-size: 19px;
+  line-height: 26px;
+  font-weight: 400;
+}
+/* line 211, S:/home/bitcoin.test/www/scss/main.scss */
+#main .container .main-top .brackets {
+  width: 149px;
+  height: 159px;
+  margin-top: 23px;
+  padding-top: 4px;
+  background: transparent url("/images/bt-brackets.png") left top no-repeat;
+  font-family: "EUROCAPS", Arial, sans-serif;
+  color: #7d848b;
+  text-align: center;
+}
+/* line 221, S:/home/bitcoin.test/www/scss/main.scss */
+#main .container .main-top .brackets .date {
+  padding-top: 15px;
+  color: #2e90f4;
+}
+/* line 225, S:/home/bitcoin.test/www/scss/main.scss */
+#main .container .main-top .brackets .date span:first-child {
+  margin: 0 auto;
+  font-size: 69px;
+  line-height: 1;
+}
+/* line 231, S:/home/bitcoin.test/www/scss/main.scss */
+#main .container .main-top .brackets .date span:last-child {
+  font-family: "EUROCAPS", Arial, sans-serif;
+  font-size: 12px;
+}
+/* line 237, S:/home/bitcoin.test/www/scss/main.scss */
+#main .container .main-top .brackets .coins {
+  width: 70px;
+  margin: 9px auto 0;
+  padding-top: 4px;
+  border-top: 4px solid #7d848b;
+  color: #7d848b;
+  font-size: 22px;
+  line-height: 19px;
+}
+/* line 246, S:/home/bitcoin.test/www/scss/main.scss */
+#main .container .main-top .brackets .coins span {
+  font-size: 18px;
+}
+/* line 252, S:/home/bitcoin.test/www/scss/main.scss */
+#main .container .main-top .bot-text {
+  width: 460px;
+  margin-top: 14px;
+  font-weight: 300;
+}
+/* line 258, S:/home/bitcoin.test/www/scss/main.scss */
+#main .container .main-top .bot-text h3 {
+  font-size: 24px;
+  line-height: 33px;
+  color: #2e90f4;
+  font-weight: 400;
+}
+/* line 264, S:/home/bitcoin.test/www/scss/main.scss */
+#main .container .main-top .bot-text p {
+  margin-top: 12px;
+  font-size: 19px;
+  line-height: 27px;
+  font-weight: 300;
+}
+/* line 274, S:/home/bitcoin.test/www/scss/main.scss */
+#main .container .main-bottom {
+  width: 441px;
+  height: 310px;
+  margin-top: 24px;
+  padding-top: 33px;
+  background: transparent url("/images/bt-tim-pic.png") left top no-repeat;
+  background-size: cover;
+}
+/* line 282, S:/home/bitcoin.test/www/scss/main.scss */
+#main .container .main-bottom div:first-child {
+  color: #e1e1e1;
+  font-size: 51px;
+}
+/* line 287, S:/home/bitcoin.test/www/scss/main.scss */
+#main .container .main-bottom div:first-child sup {
+  vertical-align: super;
+}
+/* line 290, S:/home/bitcoin.test/www/scss/main.scss */
+#main .container .main-bottom div:first-child sup:first-child {
+  font-size: 24px;
+}
+/* line 293, S:/home/bitcoin.test/www/scss/main.scss */
+#main .container .main-bottom div:first-child sup:last-child {
+  height: 28px;
+  display: inline-block;
+  padding: 13px 0 0 14px;
+  font-size: 17px;
+  color: #f60513;
+  background: transparent url("/images/bt-price-arrow.png") center bottom no-repeat;
+}
+/* line 303, S:/home/bitcoin.test/www/scss/main.scss */
+#main .container .main-bottom .tim-text {
+  position: relative;
+  margin-top: 74px;
+  font-size: 19px;
+  line-height: 29px;
+  color: #7d848b;
+}
+/* line 311, S:/home/bitcoin.test/www/scss/main.scss */
+#main .container .main-bottom .tim-text .quote-up {
+  position: absolute;
+  top: -5px;
+  left: -26px;
+  width: 18px;
+  height: 13px;
+  background: transparent url("/images/bt-quotes-first.png") left top no-repeat;
+}
+/* line 319, S:/home/bitcoin.test/www/scss/main.scss */
+#main .container .main-bottom .tim-text .quote-down {
+  display: inline-block;
+  position: relative;
+  top: -6px;
+  width: 18px;
+  height: 13px;
+  background: transparent url("/images/bt-quotes-last.png") center top no-repeat;
+}
+/* line 329, S:/home/bitcoin.test/www/scss/main.scss */
+#main .container .main-bottom .right {
+  margin-top: 3px;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 24px;
+  color: #7d848b;
+}
+
+/* line 341, S:/home/bitcoin.test/www/scss/main.scss */
+#statistics {
+  width: 100%;
+  background: black url("/images/bot-coin-bg.png") top right no-repeat;
+}
+/* line 345, S:/home/bitcoin.test/www/scss/main.scss */
+#statistics .container {
+  height: 235px;
+}
+/* line 348, S:/home/bitcoin.test/www/scss/main.scss */
+#statistics .container .graph {
+  width: 358px;
+  height: 233px;
+  margin-top: 2px;
+  background: black url("/images/bt-graph.png") center no-repeat;
+}
+/* line 355, S:/home/bitcoin.test/www/scss/main.scss */
+#statistics .container .price-advice {
+  width: 840px;
+}
+/* line 358, S:/home/bitcoin.test/www/scss/main.scss */
+#statistics .container .price-advice h1 {
+  width: 683px;
+  height: 52px;
+  margin-top: 23px;
+  background: transparent url("/images/bt-flag-bg-big.png") left top no-repeat;
+  text-align: center;
+  font-size: 27px;
+  font-weight: 700;
+  color: #e1e1e1;
+  line-height: 41px;
+}
+/* line 371, S:/home/bitcoin.test/www/scss/main.scss */
+#statistics .container .price-advice p {
+  margin: 19px 0 0 6px;
+  font-size: 18px;
+  line-height: 40px;
+  color: #e1e1e1;
+}
+
+/* line 383, S:/home/bitcoin.test/www/scss/main.scss */
+#statements {
+  width: 100%;
+  background: #3b3e3d;
+}
+/* line 387, S:/home/bitcoin.test/www/scss/main.scss */
+#statements .container {
+  height: 105px;
+  padding-top: 20px;
+}
+/* line 391, S:/home/bitcoin.test/www/scss/main.scss */
+#statements .container .state {
+  width: 182px;
+  height: 87px;
+  padding-top: 43px;
+  border-left: 1px solid #636666;
+  font-family: Calibri, Arial, sans-serif;
+  font-size: 11px;
+  line-height: 10px;
+  color: #636666;
+  text-align: center;
+  box-sizing: border-box;
+}
+/* line 403, S:/home/bitcoin.test/www/scss/main.scss */
+#statements .container .state span {
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 16px;
+  text-transform: uppercase;
+}
+/* line 411, S:/home/bitcoin.test/www/scss/main.scss */
+#statements .container .state:nth-child(1) {
+  background: transparent url("/images/bt-icon-1.png") center top no-repeat;
+}
+/* line 414, S:/home/bitcoin.test/www/scss/main.scss */
+#statements .container .state:nth-child(2) {
+  background: transparent url("/images/bt-icon-2.png") center top no-repeat;
+}
+/* line 417, S:/home/bitcoin.test/www/scss/main.scss */
+#statements .container .state:nth-child(3) {
+  width: 183px;
+  background: transparent url("/images/bt-icon-3.png") center top no-repeat;
+}
+/* line 421, S:/home/bitcoin.test/www/scss/main.scss */
+#statements .container .state:nth-child(4) {
+  background: transparent url("/images/bt-icon-4.png") center top no-repeat;
+}
+/* line 424, S:/home/bitcoin.test/www/scss/main.scss */
+#statements .container .state:nth-child(5) {
+  width: 183px;
+  background: transparent url("/images/bt-icon-5.png") center top no-repeat;
+}
+/* line 428, S:/home/bitcoin.test/www/scss/main.scss */
+#statements .container .state:nth-child(6) {
+  background: transparent url("/images/bt-icon-6.png") center top no-repeat;
+}
+/* line 431, S:/home/bitcoin.test/www/scss/main.scss */
+#statements .container .state:nth-child(7) {
+  width: 184px;
+  background: transparent url("/images/bt-icon-7.png") center top no-repeat;
+  border-right: 1px solid #636666;
+}
+
+/* line 439, S:/home/bitcoin.test/www/scss/main.scss */
+#partners {
+  width: 100%;
+  background: #2578cc;
+}
+/* line 443, S:/home/bitcoin.test/www/scss/main.scss */
+#partners .container {
+  height: 30px;
+  text-align: center;
+  color: #e1e1e1;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 34px;
+}
+
+/* line 454, S:/home/bitcoin.test/www/scss/main.scss */
+.partner-logos {
+  width: 100%;
+  height: 47px;
+  margin-top: 10px;
+  background: transparent url("/images/bt-bot-logo.png") center top no-repeat;
+}
+
+/* Top block END */
